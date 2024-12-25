@@ -19,4 +19,6 @@ To prosta aplikacja napisana w Pythonie z graficznym interfejsem użytkownika (G
     Wszystkie biblioteki dostepne są również w AUR.
 
 ## Uzytkowanie
+`git clone https://github.com/suboczsubocz/python-GUI-pwgen-with-clipboard.git`
 `python pwgen.py`
+
