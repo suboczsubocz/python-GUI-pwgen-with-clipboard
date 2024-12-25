@@ -1,9 +1,22 @@
 # python-GUI-pwgen-with-clipboard
-Easy to use password generator made in python
+To prosta aplikacja napisana w Pythonie z graficznym interfejsem użytkownika (GUI) do generowania bezpiecznych haseł. Umożliwia dostosowanie długości hasła oraz zawartości, takiej jak wielkie litery, cyfry i znaki specjalne. Aplikacja pozwala również na łatwe kopiowanie wygenerowanych haseł do schowka.
 
-Tkinter and pyperclip is necessary
+## Funkcje
+- **Dostosowanie długości hasła**: Możesz określić, jak długie ma być hasło.
+- **Opcje zawartości hasła**:
+  - Włączanie wielkich liter
+  - Włączanie cyfr
+  - Włączanie symboli
+- **Wyświetlanie hasła**: Wygenerowane hasło jest widoczne w polu tylko do odczytu.
+- **Kopiowanie do schowka**: Jednym kliknięciem skopiuj hasło do schowka.
+- **Prosty interfejs**: Intuicyjny design oparty na `tkinter`.
 
-for arch linux install by 
-`sudo pacman -S tk python-pyperclip`
+## Wymagania
+- Python 3.x
+- Wymagane biblioteki Pythona:
+  - `tkinter` ((domyślnie dostępne w Pythonie)dla Arch Linux pakiet musi być zainstalowany przez `sudo pacman -S tk`)
+  - `pyperclip` ((instalacja: `pip install pyperclip`)dla Arch linux pakiet musi zostać zainstalowany przez `sudo pacman -S pyperclip-python`)
+    Wszystkie biblioteki dostepne są również w AUR.
 
-load by writing `python pwgen.py` in terminal
+## Uzytkowanie
+`python pwgen.py`
